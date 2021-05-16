@@ -1,0 +1,56 @@
+REST API: che cosa sono
+Gestione della richiesta e della risposta HTTP
+Struttura di una REST API
+OpenAPI
+OData
+Interazioni stateless
+Metodi HTTP a disposizione
+Autenticazione e accesso
+Modalità di autenticazione
+Integrazione con i provider di autenticazione
+Best Practice per la sicurezza
+
+Verifica Intermedia
+
+Comunicazione su HTTP/S e codici standard di risposta
+Codici di risposta HTTP
+Comunicazione sicura
+Un unico dettaglio implementativo tramite una rappresentazione JSON
+Definizione del protocollo JSON e dei suoi vantaggi
+Serializzazione e deserializzazione degli oggetti JSON in diversi linguaggi
+
+Verifica Finale
+
+
+programma
+
+REST API: che cosa sono
+
+    Introduzione ai Web Service
+    REST, i principi dell’architettura
+        Che cos’è REST?
+        Identificazione delle risorse
+
+    i metodi HTTP
+
+Interazioni stateless
+
+        Risorse autodescrittive
+        Collegamenti
+        Comunicazione
+
+Autenticazione e accesso
+
+    Implementare un client RESTful
+    Creare, modificare e cancellare una risorsa
+    Implementare un Web Service RESTful
+    sicurezza HTTP
+
+Comunicazione su HTTP/S e codici standard di risposta
+
+        Stato delle risorse e dell’applicazione
+
+Un unico dettaglio implementativo tramite una rappresentazione JSON
+
+        La rappresentazione delle risorse
+
