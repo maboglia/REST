@@ -4,11 +4,11 @@
 
 ## REST API: che cosa sono
 
-* Introduzione ai Web Service
-* REST, i principi dell’architettura
-  * Che cos’è REST?
-  * Identificazione delle risorse
-* i metodi HTTP
+* [Introduzione ai Web Service](./004_API.md)
+* REST, i [principi](./020_restful_vincoli.md) dell’architettura
+  * Che cos’è [REST](./007_REST.md)?
+  * Identificazione delle [risorse](./008_Def_Risorsa.md)
+* i [metodi HTTP](./058_RichiestaHttp.md)
 
 ## Interazioni stateless
 
@@ -18,7 +18,7 @@
 
 ## Autenticazione e accesso
 
-* Implementare un client RESTful
+* Implementare un client [RESTful](./025_restful.md)
 * Creare, modificare e cancellare una risorsa
 * Implementare un Web Service RESTful
 * [Sicurezza HTTP](070_sicurezza.md)
