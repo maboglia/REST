@@ -1,5 +1,7 @@
 # Un mondo di servizi: Web - RESTful API
 
+![RESTFul Api](https://raw.githubusercontent.com/maboglia/CorsoJava/master/appunti/img/RESTful-Introduction.png)
+
 ## REST API: che cosa sono
 
 * Introduzione ai Web Service
