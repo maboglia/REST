@@ -26,9 +26,13 @@ Transfer-Encoding|Il metodo di compressione|Transfer-Encoding: gpzip|
 Vary|Informa quale campo dell’header vada considerato come variabile nel caso in cui un file viene richiesto dalla cache|Vary: User-Agent (= il server ha a disposizione diverse versioni del file in base allo User Agent)|
 Via|Il proxy tramite il quale viene inviata la risposta|Via: 1.1www.esempio.it
 
+---
+
 ## Servizio Web RESTful: il payload della risposta
 
 Il payload della risposta può essere **qualsiasi cosa sia utilizzabile**: dati, HTML, un'immagine, un file audio e così via. Le risposte ai dati sono **in genere codificate** in JSON, ma è possibile utilizzare **XML**, **CSV**, **stringhe** semplici o qualsiasi altro formato. È possibile specificare nella richiesta il formato da ritornare, se disponibile, ad esempio / user / 123? Format = json o / user / 123? Format = xml.
+
+---
 
 ## i codici di stato
 
@@ -42,6 +46,8 @@ Gli errori devono restituire un codice appropriato come
 * **404** non trovato, 
 * **401** non autorizzato 
 * e così via.
+
+---
 
 Altre intestazioni HTTP possono essere impostate tra cui le direttive **Cache-Control** o **Expires** per specificare per quanto tempo una risposta può essere memorizzata nella cache prima che venga considerata obsoleta.
 

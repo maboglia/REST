@@ -2,6 +2,8 @@
 
 Un'API RESTful fornisce un altro percorso per accedere e manipolare l'applicazione. Anche se non è un target di hacking interessante, un client mal comportato potrebbe inviare migliaia di richieste ogni secondo e arrestare in modo anomalo il tuo server.
 
+---
+
 le migliori pratiche comuni includono:
 
 * usare HTTPS

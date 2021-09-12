@@ -4,6 +4,8 @@ Esempio di "Hello World" REST
 
 Il codice seguente crea un servizio Web RESTful utilizzando il framework Node.js Express. Un singolo / ciao / endpoint risponde alle richieste GET.
 
+---
+
 Assicurati di aver installato Node.js, quindi crea una nuova cartella chiamata restapi. Crea un nuovo file package.json all'interno di quella cartella con il seguente contenuto:
 ```javascript
 {
@@ -19,7 +21,10 @@ Assicurati di aver installato Node.js, quindi crea una nuova cartella chiamata r
 }
 ```
 
-Run npm install from the command line to fetch the dependencies, then create an index.js file with the following code:
+---
+
+Esegui npm install dalla riga di comando per recuperare le dipendenze, quindi crea un file index.js con il seguente codice:
+
 
 ```javascript
 
@@ -45,7 +50,9 @@ app.listen(port, () =>
 );
 ```
 
-Launch the application from the command line using npm start and open http://localhost:8888/hello/ in a browser. The following JSON is displayed in response to the GET request:
+---
+
+Avvia l'applicazione dalla riga di comando utilizzando npm start e apri http://localhost:8888/hello/ in un browser. Il seguente JSON viene visualizzato in risposta alla richiesta GET:
 
 ```javascript
 {
@@ -53,7 +60,9 @@ Launch the application from the command line using npm start and open http://loc
 }
 ```
 
-The API also allows a custom name, so http://localhost:8888/hello/everyone/ returns:
+---
+
+L'API consente anche un nome personalizzato, quindi http://localhost:8888/hello/everyone/ restituisce:
 
 ```javascript
 {
@@ -82,6 +91,8 @@ fetch('http://localhost:8888/hello/')
 </html>
 ```
 
+---
+
 ## CORS
 
 
@@ -95,6 +106,8 @@ app.get('/hello/:name?', (req, res) =>
     )
 );
 ```
+
+---
 
 ### Alternatively (Express.js)
 

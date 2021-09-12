@@ -2,6 +2,8 @@
 
 * **304** – Not modified – I dati non sono cambiati. Il cliente può utilizzare i dati nella **cache**
 
+---
+
 ## Classi di messaggi legati allo status-code 3xx
 
 Messaggi di reindirizzamento
@@ -14,6 +16,9 @@ Messaggi di reindirizzamento
     Questo codice di risposta indica che l'**URI** della risorsa richiesta è stato modificato temporaneamente. In futuro potrebbero essere apportate ulteriori modifiche all'**URI**. Pertanto, questo stesso **URI** dovrebbe essere utilizzato dal client nelle richieste future.
 * **303** Vedi altro
     Il server ha inviato questa risposta per indicare al client di ottenere la risorsa richiesta in un altro **URI** con una richiesta **GET**.
+
+---
+
 * **304** Non modificato
     Viene utilizzato per scopi di memorizzazione nella **cache**. Indica al client che la risposta non è stata modificata, quindi il client può continuare a utilizzare la stessa versione memorizzata nella **cache** della risposta.
 * **305** Usa proxy (deprecato!)

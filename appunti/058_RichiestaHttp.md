@@ -26,6 +26,7 @@ I metodi definiti dallo standard HTTP sono utilizzati per indicare al server com
 * **HEAD** Richiede solo l’header della relativa risorsa, per verificarne ad esempio la validità. 
 
 ---
+
 ### Esempio:
 
 * una richiesta via **GET** `/user/` **ritorna** una lista di utenti registrati
@@ -38,6 +39,8 @@ I metodi definiti dallo standard HTTP sono utilizzati per indicare al server com
 * **Intestazioni HTTP**. Informazioni come token di autenticazione o cookie possono essere contenute nell'intestazione della richiesta HTTP.
 
 * **Dati del corpo**. I dati vengono normalmente trasmessi nel corpo HTTP in modo identico agli invii HTML <form> o inviando una singola stringa di dati con codifica JSON.
+
+---
 
 ## HTTP Request – la richiesta del client
 Campo dell’header|Funzione|Esempio

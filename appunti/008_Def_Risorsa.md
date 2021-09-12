@@ -4,6 +4,8 @@ Nello stile architettonico **REST**, **i dati e le funzionalità sono considerat
 
 I client e i server si scambiano **rappresentazioni di risorse** utilizzando un'interfaccia e un protocollo standardizzati, in genere **HTTP**.
 
+---
+
 L'astrazione chiave delle informazioni in REST è una **risorsa**. 
 Qualsiasi **informazione** che può essere **nominata** può essere una **risorsa**: 
 * un documento, 
@@ -22,6 +24,8 @@ Qualsiasi **informazione** che può essere **nominata** può essere una **risors
 Lo stato della **risorsa** in qualsiasi data e ora è noto come **rappresentazione delle risorse**. Una rappresentazione è costituita da dati, metadati che descrivono i dati e collegamenti ipertestuali che possono aiutare i client a passare al successivo stato desiderato.
 
 **Le risorse sono disaccoppiate dalla loro rappresentazione** in modo che sia possibile accedere al loro contenuto in una varietà di **formati**, come **HTML**, **XML**, testo normale, **PDF**, **JPEG**, **JSON** e altri. 
+
+---
 
 I **metadati** sulla risorsa sono disponibili e utilizzati, ad esempio, per controllare la memorizzazione nella cache, rilevare errori di trasmissione, negoziare il formato di rappresentazione appropriato ed eseguire l'autenticazione o il controllo dell'accesso. E, soprattutto, ogni interazione con una risorsa è **[stateless](051_Principi_Stateless.md)**.
 

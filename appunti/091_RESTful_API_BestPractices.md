@@ -11,6 +11,8 @@
 9. Gestisci gli errori usando i codici di stato HTTP
 10. Consenti l’override dei metodi HTTP
 
+---
+
 ## REST Challenges
 
 
@@ -23,9 +25,13 @@ Considerare i seguenti endpoint:
 * `/ User / id / 123`
 * `/ User /? Id = 123`
 
+---
+
 Tutte sono opzioni valide per recuperare i dati per l'utente 123. Il numero di combinazioni aumenta ulteriormente quando si hanno operazioni più complesse. Ad esempio, restituisci dieci utenti i cui cognomi iniziano con "A" e lavorano per la società X a partire dal record 51 se ordinati per data di nascita in ordine cronologico inverso.
 
 In definitiva, non importa come si formattano gli URL, ma la coerenza tra le API è importante. Ciò può essere difficile da ottenere su basi di codice di grandi dimensioni con molti sviluppatori.
+
+---
 
 ## Versioning API
 

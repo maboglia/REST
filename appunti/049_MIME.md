@@ -2,11 +2,15 @@
 
 MIME "Multipurpose internet mail extensions" è uno standard per descrivere i documenti in altre forme oltre al testo ASCII, ad es. audio, video e immagini. Inizialmente utilizzato per gli allegati di posta elettronica, è diventato lo standard di fatto per definire i tipi di documenti ovunque.
 
+---
+
 ## Tipo MIME
 
 Un tipo MIME (ora chiamato propriamente "tipo di media", ma a volte anche "tipo di contenuto") è una stringa inviata insieme a un file che indica il tipo di file (che descrive il formato del contenuto, ad esempio, un file audio potrebbe essere etichettato come audio/ogg o un file immagine image/png).
 
 Ha lo stesso scopo delle estensioni dei nomi di file tradizionalmente su Windows. Il nome deriva dallo standard MIME originariamente utilizzato nella posta elettronica.
+
+---
 
 ## Tipi MIME comuni
 
@@ -16,6 +20,8 @@ Due tipi MIME primari sono importanti per il ruolo dei tipi predefiniti:
 
 * `text/plain` è il valore predefinito per i file di testo. Un file di testo deve essere leggibile dall'uomo e non deve contenere dati binari.
 * `application/octet-stream` è il valore predefinito per tutti gli altri casi. Un tipo di file sconosciuto dovrebbe utilizzare questo tipo. I browser prestano particolare attenzione quando manipolano questi file, cercando di salvaguardare l'utente per prevenire comportamenti pericolosi.
+
+---
 
 IANA è il registro ufficiale dei tipi di media MIME e mantiene un elenco di tutti i tipi MIME ufficiali. Questa tabella elenca alcuni importanti tipi MIME per il Web:
 
@@ -32,6 +38,11 @@ Estensione Tipo di documento Tipo MIME
 * **.csh** Applicazione script C-Shell/x-csh
 * **.css** Cascading Style Sheets (CSS) text/css
 * **.csv** Valori separati da virgole (CSV) text/csv
+
+
+---
+
+
 * **.doc** Applicazione Microsoft Word/msword
 * **.docx** Applicazione Microsoft Word (OpenXML)/vnd.openxmlformats-officedocument.wordprocessingml.document
 * **.eot** MS Embedded OpenType fonts application/vnd.ms-fontobject
@@ -53,6 +64,8 @@ text/javascript, secondo le seguenti specifiche:
 * https://html.spec.whatwg.org/multipage/#dependencies:willful-violation
 * https://datatracker.ietf.org/doc/draft-ietf-dispatch-javascript-mjs/
 
+---
+
 * **.json** Formato JSON application/json
 * **.jsonld** Applicazione in formato JSON-LD/ld + json
 * **.mid**
@@ -66,6 +79,9 @@ text/javascript, secondo le seguenti specifiche:
 * **.odp** Documento di presentazione OpenDocument application/vnd.oasis.opendocument.presentation
 * **.ods** OpenDocument documento del foglio di calcolo application/vnd.oasis.opendocument.spreadsheet
 * **.odt** Documento di testo OpenDocument application/vnd.oasis.opendocument.text
+
+---
+
 * **.oga** OGG audio audio/ogg
 * **.ogv** OGG video video/ogg
 * **.ogx** OGG application/ogg
@@ -82,6 +98,8 @@ text/javascript, secondo le seguenti specifiche:
 * **.svg** Immagine SVG (Scalable Vector Graphics)/svg + xml
 * **.swf** Piccolo formato web (SWF) o applicazione per documenti Adobe Flas  x-shockwave-flash
 
+---
+
 Applicazione 
 
 * **.tar** Tape Archive (TAR)/x-tar
@@ -95,6 +113,9 @@ Applicazione
 * **.weba** WEBM audio audio/webm
 * **.webm** WEBM video video/webm
 * **.webp** WEBP immagine immagine/webp
+
+---
+
 * **.woff** Web Open Font Format (WOFF) font/woff
 * **.woff2** Web Open Font Format (WOFF) font/woff2
 * **.xhtml** Applicazione XHTML/xhtml + xml

@@ -3,6 +3,8 @@
 
 * **500** – Internal **Server** Error – gli sviluppatori di API dovrebbero evitare questo errore. Se si verifica un errore globale dell’applicazione, lo stacktrace deve esere loggato e non inviato nella risposta all’utente.
 
+---
+
 ## Classi di messaggi legati allo status-code 5xx
 
 
@@ -17,6 +19,9 @@ Il **server** non è in grado di completare la richiesta a causa di un errore.
     * **500**.18 - Impossibile aprire l'archivio autorizzazioni URL. Questo codice di errore è specifico di IIS 6.0.
     * **500**.19 - I dati per il file sono configurati in modo non corretto nella metabase.
     * **500**.100 - Errore ASP interno.
+
+---
+
   * **501** - La configurazione specificata dai valori intestazione non è implementata.
   * **502** - Il **server** Web con funzioni di gateway o di proxy ha ricevuto una risposta non valida.
       **502**.1 - Timeout dell'applicazione CGI.

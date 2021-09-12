@@ -6,8 +6,12 @@
 * **Sistema a strati**. REST consente un'architettura composta da più livelli di server.
 
 
+---
+
 
 REST consente di utilizzare un'architettura di sistema a più livelli in cui distribuire le API sul server A, archiviare i dati sul server B e autenticare le richieste nel server C, ad esempio. Un client non può normalmente dire se è collegato direttamente al server finale o a un intermediario lungo la strada.
+
+---
 
 
 Sistema stratificato (LAYERED SYSTEM)

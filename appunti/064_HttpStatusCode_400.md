@@ -6,6 +6,8 @@
 * **404** – Not Found – Non vi è alcuna risorsa dietro l’URI richiesto.
 * **422** – Unprocessable Entity – deve essere usato se il server non può elaborare il enitity, ad esempio se un’immagine non può essere formattata o campi obbligatori sono mancanti nel payload.
 
+---
+
 ## Classi di messaggi legati allo status-code
 
 Risposte di errore del client
@@ -19,6 +21,8 @@ Risposte di errore del client
     Questo codice di risposta è riservato per uso futuro. L'obiettivo iniziale per creare questo codice era utilizzarlo per i sistemi di pagamento digitale, tuttavia questo codice di stato viene utilizzato molto raramente e non esiste alcuna convenzione standard.
 * **403** Proibito
     Il cliente non dispone dei diritti di accesso al contenuto; cioè, non è autorizzato, quindi il server si rifiuta di fornire la risorsa richiesta. A differenza di 401, l'identità del client è nota al server.
+
+---
 * **404** non trovato
     Il server non riesce a trovare la risorsa richiesta. Nel browser, questo significa che l'URL non viene riconosciuto. In un'API, questo può anche significare che l'endpoint è valido ma la risorsa stessa non esiste. I server possono anche inviare questa risposta invece di 403 per nascondere l'esistenza di una risorsa a un client non autorizzato. Questo codice di risposta è probabilmente il più famoso a causa della sua frequente presenza sul web.
 * **405** Metodo non consentito
@@ -31,6 +35,8 @@ Risposte di errore del client
     Questa risposta viene inviata su una connessione inattiva da alcuni server, anche senza alcuna precedente richiesta da parte del client. Significa che il server vorrebbe chiudere questa connessione inutilizzata. Questa risposta viene utilizzata molto di più poiché alcuni browser, come Chrome, Firefox 27+ o IE9, utilizzano meccanismi di pre-connessione HTTP per velocizzare la navigazione. Notare inoltre che alcuni server interrompono semplicemente la connessione senza inviare questo messaggio.
 * **409** Conflitto
     Questa risposta viene inviata quando una richiesta è in conflitto con lo stato corrente del server.
+
+---
 * **410** Gone
     Questa risposta viene inviata quando il contenuto richiesto è stato eliminato definitivamente dal server, senza indirizzo di inoltro. Ci si aspetta che i client rimuovano le proprie cache e i collegamenti alla risorsa. La specifica HTTP prevede che questo codice di stato venga utilizzato per "servizi promozionali a tempo limitato". Le API non dovrebbero sentirsi obbligate a indicare le risorse che sono state eliminate con questo codice di stato.
 * **411** Lunghezza richiesta
@@ -47,6 +53,9 @@ Risposte di errore del client
     L'intervallo specificato dal campo di intestazione Intervallo nella richiesta non può essere soddisfatto; è possibile che l'intervallo sia al di fuori della dimensione dei dati dell'URI di destinazione.
 * **417** Aspettativa fallita
     Questo codice di risposta indica che l'aspettativa indicata dal campo di intestazione della richiesta Expect non può essere soddisfatta dal server.
+
+---
+
 * **418** Sono una teiera
     Il cameriere rifiuta il tentativo di preparare il caffè con una teiera.
 * **421** Richiesta errata

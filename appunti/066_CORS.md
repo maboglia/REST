@@ -9,6 +9,8 @@ La politica di sicurezza della stessa origine impedisce l'accesso alle risorse t
 * Condivisione di risorse cross-origin su Wikipedia
 
 
+---
+
 ## Intestazioni CORS
 
 * **Access-Control-Allow-Origin**
@@ -60,6 +62,8 @@ fetch('http://localhost:8888/hello/')
 </html>
 ```
 
+---
+
 La chiamata di recupero fa la stessa richiesta API e la console del browser mostra Oggetto {messaggio: "Ciao mondo!" } come ti aspetteresti.
 
 Tuttavia, supponiamo che il tuo servizio Web RESTful sia stato messo online sul Web nel dominio `http://mydomain.com/hello/`. L'URL JavaScript `fetch()` della pagina viene modificato di conseguenza, ma l'apertura di `http://localhost:8888/` nel browser ora restituisce l'errore della console **Cross-Origin Request Blocked**.
@@ -67,6 +71,8 @@ Tuttavia, supponiamo che il tuo servizio Web RESTful sia stato messo online sul 
 Per motivi di sicurezza, i browser consentono solo chiamate **XMLHttpRequest** e **Fetch API** lato client **ALLO STESSO DOMINIO** in cui è ospitata la pagina.
 
 Fortunatamente, la **condivisione delle risorse tra le origini** (CORS) ci consente di aggirare questa limitazione della sicurezza. 
+
+---
 
 L'impostazione di un'intestazione di risposta HTTP **Access-Control-Allow-Origin** indica ai browser di consentire la richiesta. Può essere impostato su un dominio specifico o * per tutti i domini (fatto dall'API Joke sopra).
 
@@ -82,6 +88,8 @@ app.get('/hello/:name?', (req, res) =>
     )
 );
 ```
+
+---
 
 In alternativa, una funzione middleware Express.js potrebbe aggiungere l'intestazione a ogni richiesta di endpoint:
 
