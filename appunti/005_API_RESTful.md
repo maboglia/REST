@@ -4,13 +4,22 @@ Nel **2000**, Roy **Fielding** e un gruppo di sviluppatori hanno deciso di crear
 
 Un'**API RESTful** è un'interfaccia di programma applicativo (API) che utilizza richieste **HTTP** per ottenere dati **GET**, **PUT**, **POST** e **DELETE**.
 
+---
+
+
 Un'**API** per un sito Web è un codice che consente a due programmi software di comunicare tra loro. L'**API** indica il modo corretto per uno sviluppatore di scrivere un programma che richiede servizi da un sistema operativo o altra applicazione.
 
 Un'**API RESTful**, nota anche come servizio Web RESTful o **API** **REST**, si basa sul trasferimento dello stato rappresentativo (REST), uno stile architettonico e un approccio alle comunicazioni spesso utilizzati nello sviluppo di servizi Web.
 
+---
+
+
 La tecnologia **REST** è generalmente preferita alla più solida tecnologia **SOAP** (Simple Object Access Protocol) perché **REST** utilizza una larghezza di banda inferiore, rendendola più adatta per un uso efficiente di Internet.
 
 Il **REST** utilizzato dai browser può essere considerato come la lingua di Internet. Con l'uso del cloud in aumento, le **API** vengono utilizzate dagli utenti del cloud per esporre e organizzare l'accesso ai servizi Web. 
+
+---
+
 
 **REST** è una scelta logica per la creazione di **API** che consentono agli utenti di connettersi, gestire e interagire con i servizi cloud in modo flessibile in un ambiente distribuito. 
 
