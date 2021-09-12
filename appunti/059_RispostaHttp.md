@@ -3,9 +3,9 @@
 Campo dell’header|Funzione|Esempio
 ---|---|---             
 Accept-Ranges|Quali unità del server sono accettate per il range indicato (vedi sopra)|Accept-Ranges: bytes
-|Age|Il tempo in secondi dalla creazione dell’oggetto nella cache|Age:2300             
-|Allow|I tipi di richieste ammessi per una determinata risorsa|Allow: GET, POST, HEAD
-|Cache-Control|Se e per quanto tempo l’oggetto può essere mantenuto nella cache|Cache-Control: max-age=4800|
+Age|Il tempo in secondi dalla creazione dell’oggetto nella cache|Age:2300             
+Allow|I tipi di richieste ammessi per una determinata risorsa|Allow: GET, POST, HEAD
+Cache-Control|Se e per quanto tempo l’oggetto può essere mantenuto nella cache|Cache-Control: max-age=4800|
 Connection|Il tipo di connessione preferito|Connection: close|
 Content-Encoding|Tipo di compressione|Content-Encoding: deflate|
 Content-Language|Lingua della risorsa|Content-Language: it-IT|
