@@ -17,3 +17,18 @@ Le **applicazioni di terze parti** devono utilizzare metodi di autorizzazione al
 
 L'autenticazione API varia in base al contesto d'uso. In alcuni casi, l'applicazione di terze parti viene considerata come un altro utente connesso con diritti e autorizzazioni specifici, ad esempio quando si generano indicazioni stradali da un'API di mappe. In altri casi, l'applicazione di terze parti viene utilizzata da un utente registrato e può accedere solo ai suoi dati, ad esempio quando si recuperano contenuti e documenti e-mail.
 
+---
+
+Quando accedi a un sito web, la tua identità deve essere gestita. Ecco come funzionano le diverse soluzioni:
+
+- **Sessione**: il server memorizza l'identità dell'utente e fornisce al browser un cookie ID di sessione. Ciò consente al server di tenere traccia dello stato di accesso. Ma i cookie non funzionano bene su tutti i dispositivi.
+
+- **Token**: l'identità dell'utente viene codificata in un token inviato al browser. Il browser invia questo token alle future richieste di autenticazione. Non è richiesta alcuna memorizzazione delle sessioni del server. Ma i token hanno bisogno di crittografia/decrittografia.
+
+- **JWT**: I token Web JSON standardizzano i token di identità usando le firme digitali per l'attendibilità. La firma è contenuta nel token, quindi non è necessaria alcuna sessione del server.
+
+- **SSO**: Single Sign-On utilizza un servizio di autenticazione centrale. Ciò consente a un singolo accesso di funzionare su più siti.
+
+- **OAuth2**: Consente l'accesso limitato ai dati su un sito da parte di un altro sito, senza fornire password.
+
+- **Codice QR**: Codifica un token casuale in un codice QR per l'accesso mobile. La scansione del codice consente di accedere senza digitare una password.
